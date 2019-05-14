@@ -7,6 +7,7 @@
   "author": "Lucio Rubens <lucio@ark.io>",
   "license": "MIT",
   "permissions": [
+    "SANDBOX",
     "AUDIO",
     "EVENTS",
     "ALERTS"
