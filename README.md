@@ -10,7 +10,7 @@ Play a sound when you receive new transactions
 ## Credits
 
 - [Lúcio Rubens](https://github.com/luciorubeens)
-- [All Contributors](../../../../contributors)
+- [All Contributors](../../contributors)
 
 ## License
 
