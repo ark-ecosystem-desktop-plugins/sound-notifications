@@ -5,6 +5,12 @@
   "description": "Play a notification sound when you receive new transactions",
   "main": "src/index.js",
   "author": "Lucio Rubens <lucio@ark.io>",
+  "desktop-wallet": {
+    "categories": [
+      "utility"
+    ],
+    "minVersion": "2.6"
+  },
   "keywords": [
     "utility",
     "notification",
