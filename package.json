@@ -1,6 +1,6 @@
 {
   "name": "@arkecosystem/desktop-wallet-sound-notifications",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "Sound Notifications",
   "description": "Play a notification sound when you receive new transactions",
   "main": "src/index.js",
