@@ -21,7 +21,6 @@
   "contributors": [
     "Lucio Rubens <lucio@ark.io>"
   ],
-  "license": "MIT",
   "permissions": [
     "SANDBOX",
     "AUDIO",
@@ -31,5 +30,10 @@
   "devDependencies": {
     "audio-loader": "^1.0.3",
     "glob": "^7.1.3"
-  }
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ark-ecosystem-desktop-plugins/sound-notifications/issues"
+  },
+  "homepage": "https://github.com/ark-ecosystem-desktop-plugins/sound-notifications#readme"
 }
