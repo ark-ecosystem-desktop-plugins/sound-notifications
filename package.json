@@ -8,7 +8,7 @@
   "author": "Lucio Rubens <lucio@ark.io>",
   "desktop-wallet": {
     "categories": [
-      "utility"
+      "other"
     ],
     "minVersion": "2.6"
   },
