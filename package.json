@@ -1,6 +1,6 @@
 {
   "name": "@arkecosystem/desktop-wallet-sound-notifications",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "title": "Sound Notifications",
   "description": "Play a notification sound when you receive new transactions",
   "logo": "https://raw.githubusercontent.com/ark-ecosystem-desktop-plugins/sound-notifications/master/logo.png",
