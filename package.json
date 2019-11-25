@@ -1,14 +1,20 @@
 {
   "name": "@arkecosystem/desktop-wallet-sound-notifications",
   "version": "0.1.4",
-  "title": "Sound Notifications",
   "description": "Play a notification sound when you receive new transactions",
   "logo": "https://raw.githubusercontent.com/ark-ecosystem-desktop-plugins/sound-notifications/master/logo.png",
   "main": "src/index.js",
   "author": "Lucio Rubens <lucio@ark.io>",
   "desktop-wallet": {
+    "title": "Sound Notifications",
     "categories": [
       "other"
+    ],
+    "permissions": [
+      "SANDBOX",
+      "AUDIO",
+      "EVENTS",
+      "ALERTS"
     ],
     "minVersion": "2.6"
   },
@@ -21,12 +27,6 @@
   ],
   "contributors": [
     "Lucio Rubens <lucio@ark.io>"
-  ],
-  "permissions": [
-    "SANDBOX",
-    "AUDIO",
-    "EVENTS",
-    "ALERTS"
   ],
   "devDependencies": {
     "audio-loader": "^1.0.3",
