@@ -14,11 +14,15 @@ const play = () => {
 }
 
 const onNewTransactions = () => {
-  walletApi.eventBus.onAny(eventName => {
-    if (eventName.includes('transaction:new')) {
-      play()
-    }
-  })
+  if (typeof walletApi.eventBus.onAny === 'function') {
+    walletApi.eventBus.onAny(eventName => {
+      if (eventName.includes('transaction:new')) {
+        play()
+      }
+    })
+  } else {
+    walletApi.eventBus.on(/transaction:new/, play)
+  }
 }
 
 // Call this when starting the application
